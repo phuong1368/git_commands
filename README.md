@@ -14,13 +14,13 @@
 * `git reset <file-name>` -> Unstages a file that has been added to the staging area, moving it back to the working directory.
   
 ### Process of staging
-**Before staging**
+1. Before staging
 Working Directory: file.txt (modified)
 Staging Area: [empty]
-**After Staging (git add file.txt)**
+2. After Staging (git add file.txt)
 Working Directory: file.txt (unchanged)
 Staging Area: file.txt (ready for commit)
-**After Commit (git commit -m "Commit message")**
+3. After Commit (git commit -m "Commit message")
 Working Directory: file.txt (unchanged)
 Staging Area: [empty]
 Repository: file.txt (saved in commit)
